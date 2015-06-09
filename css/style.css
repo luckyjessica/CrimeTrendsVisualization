@@ -1,0 +1,43 @@
+body {
+	  font-weight: 100;
+		top: 10%;
+		background-color:whitesmoke;
+	}
+	
+path:hover {
+opacity:0.5;
+}	
+
+.key path {
+  display: none;
+}
+
+.key line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.yearaxis path{
+ display: none;
+}
+
+.yearaxis line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.caption {
+  font-weight: bold;
+}
+
+  #play {
+          position: absolute;
+		  top:25px;
+          right: -33px;
+          cursor: pointer;
+      }
+ #slider {
+          position: relative;
+		  left:20;
+          margin-top: 30;
+      }

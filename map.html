@@ -1,0 +1,73 @@
+<html>	
+	<head>		
+		<title>Map</title>	
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="js/d3.v3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/sidebar.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8rc3.custom.min.js"></script>  	
+<link href="css/jquery-ui-1.8rc3.custom.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>		
+	<body>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand">INFSCI 2415 Information Visualization</a>
+    </div>
+  </div>
+</nav>
+
+<div id="masthead">  
+  <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Are You Safe in Chicago?
+            <p class="lead">—Crime Statistic of Chicago from 2004 to 2013</p>
+          </h1>
+        </div>
+        <div class="col-md-5">
+            <div class="well well-lg"> 
+              <div class="row">
+                <div class="col-sm-6">
+                  <strong>Important</strong>
+                    <p>Blah blah blah blah bla!</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> 
+      <hr/>
+  </div><!-- /cont -->
+</div>
+
+<!-- Begin Body -->
+<div class="container">
+  <div class="row">
+        <div class="col-md-2" id="leftCol">   
+                <ul class="nav nav-stacked" id="sidebar">
+                  <li><a href="#sec0">Section 0</a></li>
+                  <li><a href="#map">Section 1</a></li>
+                  <li><a href="#sec2">Section 2</a></li>
+                  <li><a href="#sec3">Section 3</a></li>
+                  <li><a href="#sec4">Section 4</a></li>
+                </ul>
+              
+          </div>  
+        <!-- main area -->
+        <div class="col-sm-9" id="map">
+            <div id="slider"></div>
+            <img id="play" src="img/play.png" alt="Play" onClick="playClick()"></img>
+            <div id="mapChart"></div><script src="js/map.js"></script>
+		</div>
+		
+</div>
+</div>
+				
+</body>
+
+</html>
